@@ -11,7 +11,7 @@ const useClick = (onClick) => {
   return element;
 };
 const App = () => {
-  const sayHello = () => console.log("say Hi!!");
+  const sayHello = () => console.log("say HI HI HI!!");
   const title = useClick(sayHello);
   return (
     <div className="App">
